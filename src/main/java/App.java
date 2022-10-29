@@ -21,8 +21,8 @@ public class App {
         System.out.println(catBean2.getName());
 
 
-        System.out.println(bean.equals(bean2));
-        System.out.println(catBean.equals(catBean2));
+        System.out.println(bean == bean2);
+        System.out.println(catBean == catBean2);
 
     }
 
